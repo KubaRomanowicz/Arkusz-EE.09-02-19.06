@@ -1,0 +1,4 @@
+1. SELECT marka, model FROM `samochody` WHERE 'kolor' = "czerwony";
+2. UPDATE `samochody` SET `stan` = 'dobry' WHERE `rocznik` = 2003;
+3. CREATE USER 'andrzej'@'%' IDENTIFIED WITH mysql_native_password BY '***';GRANT USAGE ON *.* TO 'andrzej'@'%';ALTER USER 'andrzej'@'%'; 
+4. GRANT SELECT, UPDATE ON `samochody`.`samochody` TO 'andrzej'@'%'; ALTER USER 'andrzej'@'%' ;
